@@ -20,6 +20,7 @@ class Game:
 
         # Sound
         main_sound = pygame.mixer.Sound('audio/yo.mp3')
+        main_sound.set_volume(0.1)
         main_sound.play(loops = -1) # To play again and again
 
     def run(self):
