@@ -11,6 +11,13 @@ GRID_IMAGE_PATH = 'graphics/bg/grid.png'
 GAME_INDICES = [1, 2, 3] # 0 and 4 are outside of play area
 SYM_PATH = 'graphics/symbols'
 
+# Text
+
+TEXT_COLOR = 'White'
+UI_FONT = 'fonts/BebasNeue-Regular.ttf'
+UI_FONT_SIZE = 50
+WIN_FONT_SIZE = 110
+
 # 5 Symbols for testing
 symbols = {
     'pika': f"{SYM_PATH}/pika.png",
@@ -18,11 +25,11 @@ symbols = {
     'buba': f"{SYM_PATH}/buba.png",
     'krest': f"{SYM_PATH}/krest.png",
     'joker': f"{SYM_PATH}/joker.png",
-    'svastika': f"{SYM_PATH}/x100.png",
-    'anime': f"{SYM_PATH}/ah.png",
-    'chad': f"{SYM_PATH}/x10.png",
-    'makak': f"{SYM_PATH}/ob.png",
-    'deti': f"{SYM_PATH}/img.png",
-    'krim': f"{SYM_PATH}/1.png"
+    # 'svastika': f"{SYM_PATH}/x100.png",
+    #'anime': f"{SYM_PATH}/ah.png",
+    #'chad': f"{SYM_PATH}/x10.png",
+    #'makak': f"{SYM_PATH}/ob.png",
+    #'deti': f"{SYM_PATH}/img.png",
+    #'krim': f"{SYM_PATH}/1.png"
 
 }

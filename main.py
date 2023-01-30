@@ -13,7 +13,7 @@ class Game:
         self.clock = pygame.time.Clock()
         self.bg_image = pygame.image.load(BG_IMAGE_PATH)
         self.grid_image = pygame.image.load(GRID_IMAGE_PATH)
-
+        
         # TO DO: Create machine class
         self.machine = Machine()
         self.delta_time = 0
